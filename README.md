@@ -21,18 +21,17 @@
 
 #### SETUP 
 
+- <a href="https://github.com/ballon-king/BONIPHACE-XMD-1/fork"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/FORK THIS REPO-h?color=pink&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
 
-[`FORK`](https://github.com/ballon-king/BONIPHACE-XMD-1/fork)
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
+ GET SESSION ID BY
+<img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
+ [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F01&lines=𝑇𝐻𝐼𝑆+𝐼𝑆+𝑆𝐸𝑆𝑆𝐼𝑂𝑁+𝑆𝐼𝑇𝐸+🤙)](https://git.io/typing-svg)
 
- 
+</p>
 
-
-[`PAIRING CODE`](https:-0t9v.onrender.com)
- 
-
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-
+- <a href="https://boniphacetech.onrender.com"><img title="SESSION SITE" src="https://img.shields.io/badge/SESSION SITE-h?color=pink&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
 
 #### DEPLOY TO HEROKU 
 1. `If You Don't Have An Account On Heroku`
