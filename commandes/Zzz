@@ -1,0 +1,53 @@
+const { zokou } = require('../framework/zokou');
+const traduire = require("../framework/traduction"); // For translations (if needed)
+const axios = require('axios');
+
+// Replace with your actual DeepSeek API key
+const DEEPSEEK_API_KEY = "YOUR_DEEPSEEK_API_KEY"; 
+const DEEPSEEK_API_URL = "https://api.deepseek.com/v1/chat/completions";
+
+zokou({
+  nomCom: "deepseek", // Command name
+  categorie: "AI", // Category
+  reaction: "🤖", // Emoji reaction
+  description: "Ask DeepSeek AI a question", // Description
+}, async (dest, zk, commandeOptions) => {
+  const { arg, repondre, prefixe } = commandeOptions;
+
+  if (!arg || arg.length === 0) {
+    return repondre(`❌ Please ask a question!\nExample: *${prefixe}deepseek What is Node.js?*`);
+  }
+
+  try {
+    // Send a loading message
+    await repondre("🔍 Searching for an answer...");
+
+    // Make a request to DeepSeek API
+    const response = await axios.post(
+      DEEPSEEK_API_URL,
+      {
+        model: "deepseek-chat", // Or any other model
+        messages: [{ role: "user", content: arg }],
+        max_tokens: 1000, // Adjust response length
+      },
+      {
+        headers: {
+          "Content-Type": "application/json",
+          "Authorization": `Bearer ${DEEPSEEK_API_KEY}`,
+        },
+      }
+    );
+
+    const answer = response.data.choices[0]?.message?.content;
+    
+    if (!answer) {
+      return repondre("❌ No response from DeepSeek.");
+    }
+
+    // Send the answer back to the user
+    await repondre(`🤖 *DeepSeek AI Response:*\n\n${answer}`);
+  } catch (error) {
+    console.error("DeepSeek API Error:", error);
+    repondre("❌ An error occurred while fetching the response. Please try again later.");
+  }
+});
