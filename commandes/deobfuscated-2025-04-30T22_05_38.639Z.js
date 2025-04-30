@@ -1,4 +1,4 @@
-const { fana } = require('../njabulo/fana'),
+const { zokou } = require('../framework/zokou'),
   axios = require('axios'),
   ytSearch = require('yt-search'),
   conf = require(__dirname + '/../set'),
@@ -7,8 +7,8 @@ const { fana } = require('../njabulo/fana'),
     forwardingScore: 999,
     isForwarded: true,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: '120363345407274799@newsletter',
-      newsletterName: '\u256D\u2022\u2022\u27A4\xAENjabulo Jb',
+      newsletterJid: '120363330180223606@newsletter',
+      newsletterName: '\u256D\u2022\u2022\u27A4\xAEBo iphace Xmd',
       serverMessageId: Math.floor(100000 + Math.random() * 900000),
     },
     externalAdReply: {
@@ -47,12 +47,12 @@ async function downloadFromApis(_0x4696ef) {
   }
   throw new Error('Failed to retrieve download URL from all sources.')
 }
-fana(
+zokou(
   {
-    nomCom: 'play',
-    aliases: ['song', 'playdoc', 'audio', 'mp3'],
+    nomCom: 'audio1',
+    aliases: ['son', 'playdo', 'audi', 'mp'],
     categorie: 'Download',
-    reaction: '\uD83C\uDFB8',
+    reaction: '🎵',
   },
   async (_0x372c50, _0x458ba0, _0x3b33ba) => {
     const { arg: _0x8a2818, ms: _0x5182b6, userJid: _0x522a3e } = _0x3b33ba
@@ -70,7 +70,7 @@ fana(
       await _0x458ba0.sendMessage(
         _0x372c50,
         {
-          text: '=========================\n *YOUTUBE DOWNLOADER*\n=========================\n *Source :* YouTube\n=========================\n *Hallo:* Wait are second\n *Downloaded:* you audio\n=========================\n\n> \xA9 Sir Njabulo JB',
+          text: '=========================\n *YOUTUBE DOWNLOADER*\n=========================\n *Source :* YouTube\n=========================\n *Hallo:* Wait are second\n *Downloaded:* you audio\n=========================\n\n> \xA9 Boniphace Xmd',
           contextInfo: getContextInfo(
             'Downloaded From YouTube\n youtube.com',
             _0x522a3e,
@@ -118,12 +118,12 @@ fana(
     }
   }
 )
-fana(
+zokou(
   {
-    nomCom: 'video',
-    aliases: ['videodoc', 'film', 'mp4'],
+    nomCom: 'video1',
+    aliases: ['videodo', 'fil', 'm'],
     categorie: 'Download',
-    reaction: '\uD83C\uDFAC',
+    reaction: '🎵',
   },
   async (_0x3b3471, _0x3a1496, _0x5ac1f8) => {
     const { arg: _0xc52f9b, ms: _0x1d5388, userJid: _0x17b79c } = _0x5ac1f8
@@ -141,7 +141,7 @@ fana(
       await _0x3a1496.sendMessage(
         _0x3b3471,
         {
-          text: '=========================\n *YOUTUBE DOWNLOADER*\n=========================\n *Source :* YouTube\n=========================\n *Hallo:* Wait are second\n *Downloaded:* you audio\n=========================\n\n> \xA9 Sir Njabulo JB',
+          text: '=========================\n *YOUTUBE DOWNLOADER*\n=========================\n *Source :* YouTube\n=========================\n *Hallo:* Wait are second\n *Downloaded:* you audio\n=========================\n\n> \xA9 Boniphace Xmd',
           contextInfo: getContextInfo(
             'Downloaded from YouTube\n youtube',
             _0x17b79c,
