@@ -3,8 +3,8 @@ const { zokou } = require('../framework/zokou'),
   { default: axios } = require('axios')
 zokou(
   {
-    nomCom: 'bing',
-    reaction: '\uD83D\uDE0F',
+    nomCom: 'bing10',
+    reaction: '💫',
     categorie: 'IA',
   },
   async (_0x5a2043, _0xcfaa75, _0x509d92) => {
@@ -42,7 +42,7 @@ zokou(
 )
 zokou(
   {
-    nomCom: 'vv',
+    nomCom: 'see',
     categorie: 'Mods',
   },
   async (_0x486886, _0x325c9b, _0x1c648a) => {
