@@ -131,7 +131,7 @@
     },
     "STARTING_BOT_MESSAGE": {
       "description": "Set 'yes' to display a starting bot message or 'no' to disable it",
-      "value": "yes",
+      "value": "no",
       "required": true
     },
     "PRESENCE": {
