@@ -1,4 +1,4 @@
-const { fana } = require('../njabulo/fana'),
+const { zokou } = require('../framework/zokou'),
   { Sticker, StickerTypes } = require('wa-sticker-formatter'),
   {
     ajouterOuMettreAJourJid,
@@ -13,11 +13,11 @@ const { fana } = require('../njabulo/fana'),
   fs = require('fs-extra'),
   conf = require('../set'),
   { default: axios } = require('axios')
-fana(
+zokou(
   {
-    nomCom: 'tagall',
+    nomCom: 'mentionall',
     categorie: 'Group',
-    reaction: '\uD83D\uDCC3',
+    reaction: '🙌',
   },
   async (_0x92d79a, _0x3ca0ea, _0x1ec3d0) => {
     const {
@@ -55,14 +55,14 @@ fana(
             contextInfo: {
               isForwarded: true,
               forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363345407274799@newsletter',
-                newsletterName: '\u256D\u2022\u2022\u27A4\xAENjabulo Jb',
+                newsletterJid: '120363330180223606@newsletter',
+                newsletterName: '\u256D\u2022\u2022\u27A4\xAEBONIPHACE-XMD',
                 serverMessageId: 143,
               },
               forwardingScore: 999,
               externalAdReply: {
                 title: _0xf42821,
-                body: '\uD83D\uDCC3online is alwaysonline',
+                body: '\uD83D\uDCC3Regards',
                 thumbnailUrl: conf.URL,
                 mediaType: 1,
                 renderSmallThumbnail: true,
