@@ -1,8 +1,8 @@
 {
-  "name":"CHARLESKE-VMD",
+  "name":"BONIPHACE-MD",
   "description":"Best whatsapp bot💥 developed by Charles ke🇰🇪",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://ibb.co/q70RyBd",
+  "logo":"https://files.catbox.moe/qf3ms7.jpg",
   "repository":"https://github.com/ekitale/maths-project",
   "succes_url":"/",
   "stack":"heroku-24",
@@ -58,14 +58,14 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"𝐂𝐇𝐀𝐑𝐋𝐄𝐒𝐊𝐄-VMD",
+      "value":"BONIPHACE-MD",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://ibb.co/q70RyBd",
+      "value":"https://files.catbox.moe/qf3ms7.jpg",
       "required":false
        
      },
@@ -97,12 +97,12 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "©charles"
+    "value": "© Boniphace"
   },
     "NUMERO_OWNER":
   {
     
-    "desc": "Your number , dont put '+' and put you area code(exemple of kenya '254')",
+    "desc": "Your number , dont put '+' and put you area code(exemple of Tanzania'255')",
     "required":true,
     "value": ""
   },
@@ -116,11 +116,11 @@
   {
     "description": "if you don't want startting-bot-message put no else put yes",
     "required": true,
-    "value": "yes"
+    "value": "no"
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 online. 2 typing a message. 3 recording . Or leave the field blank to indicate your real state.",
-    "value":"",
+    "value":"1",
     "required": false
   },
   "ANTI_DELETE_MESSAGE" : {
