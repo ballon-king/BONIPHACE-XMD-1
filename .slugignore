@@ -1,0 +1,5 @@
+/NODE_MODULES_CACHE=true/tests
+/node_modules
+/docs
+*.log
+*.pdf
